@@ -29,7 +29,7 @@ res = max(numbers)
 
 
 if st.button('Find Lagrgest Number'):
-    st.subheader("Result : the largest of the 3 numbers is ")
+    st.write("Result : the largest of the 3 numbers is ")
     st.write(res)
   
 
