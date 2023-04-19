@@ -23,13 +23,13 @@ def user_input_features():
   num3 = st.number_input("num3", min_value = -2000000000, max_value = 2000000000, step = 1)
 
   numbers = [num1, num2, num3]
-#   return numbers
+  return numbers
 
-  numbers = user_input_features()
-  res = max(numbers)
+ numbers = user_input_features()
+ res = max(numbers)
 
-  st.subheader("Result : the largest of the 3 numbers is ")
-  if st.button('Find Lagrgest Number'):
+ st.subheader("Result : the largest of the 3 numbers is ")
+ if st.button('Find Lagrgest Number'):
     st.write(res)
   
 
